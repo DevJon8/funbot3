@@ -32,7 +32,7 @@ client.on('message', message => {
        }
 
 });
- 
+ bot.user.setPresence({ game: { name: 'Something', type: "streaming", url: "https://alvyrious.gq"}});
 
 // THIS  MUST  BE  THIS  WAY
 
