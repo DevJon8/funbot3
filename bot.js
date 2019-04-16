@@ -27,10 +27,7 @@ client.on('message', message => {
 
     if (message.content === 'help') {
 
-       message.reply('The commands are as followed (There is no prefix)
-
-ping : Saying ping will cause the bot to respond pong
-help : Well it returns this command');
+       message.reply('The commands are as followed -There is no prefix, -ping : Saying ping will cause the bot to respond pong -help : Well it returns this command');
 
        }
 
